@@ -1,0 +1,99 @@
+/* Default CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* Transition and Position */
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+/* 1st Part*/
+
+.item:nth-child(1) {
+    background-color: blue;
+    transition: all 1s ease 0.1s;
+}
+.Football:hover{
+    z-index: 1;
+    width: 350px;
+    background-color: grey;
+    color: palegreen;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+/* 2nd Part */
+
+.item:nth-child(2) {
+    background-color: palevioletred;
+    top: 35px;
+    left: 35px;
+    transition: all 1s ease 0.1s;
+}
+
+.Cricket:hover{
+    z-index: 2;
+    height: 450px;
+    background-color: cadetblue;
+    writing-mode: vertical-lr;
+    color: lavender;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* 3rd Part */
+
+.item:nth-child(3) {
+    background-color: thistle;
+    top: 70px;
+    left: 70px;
+    transition: all 1s ease 0.s;
+}
+.Tennis:hover{
+    background-color: lightcoral;
+    z-index: 3;
+    width: 350px;
+    color: lightgreen;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* 4th Part */
+
+.item:nth-child(4) {
+    background-color: olive;
+    top: 105px;
+    left: 105px;
+    transition: all 1s linear 0.3s;
+}
+.Rugby:hover{
+    z-index: 4;
+    background-color: purple;
+    height: 550px;
+    writing-mode: vertical-lr;
+    color: peru;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
